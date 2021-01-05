@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Counter</title>
+	<link rel="stylesheet" href="counter.css">
+</head>
+<body>
+	<h1 id="instruction">ENTER THE VALUE FROM 1 TO 99999</h1>
+	<div id="block">
+	<input type="number" id="number">
+	<button id="btn">Click To Start</button><br><br>
+	<p id="demo">0</p>
+	</div> 
+
+
+	<script type="text/javascript">
+		// var input= document.getElementById("number").value;
+		var count= 0;
+		document.getElementById("btn").addEventListener('click', function(){
+			var input= document.getElementById("number").value;
+			if(input<99999){
+			setInterval(()=>{
+				if(count<input){
+					count++;
+					document.getElementById("demo").innerText= count;
+				}else {
+					document.getElementById("demo").innerText= input;
+				}
+			}, 1000)
+		}})
+		
+		
+	</script>
+</body>
+</html>

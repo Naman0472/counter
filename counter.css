@@ -1,0 +1,55 @@
+*{
+	margin:0px;
+	padding:0px;
+	background-color: #00ffe017;
+	
+}
+#instruction{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 90px;
+	color: white;
+	font-family: "Lucida Handwriting";
+	/*text-shadow: 4px 4px 6px yellow, 4px 4px 6px green; */
+	z-index: 10;
+}
+#number{
+	position: relative;
+	left: 440px;
+	top: 150px;
+	background-color: white;
+}
+#btn{
+	position: relative;
+	left: 640px;
+	top: 150px;
+	border-radius: 8px 8px 8px 8px;
+	height: 30px;
+	width: 100px;
+	font-family: cursive;
+	font-size: 0.8rem;
+	font-weight: bold;
+	box-shadow: 6px 6px 8px white;
+	background-color: lightgrey;
+}
+#demo{
+	position: relative;
+	top: 250px;
+	text-align: center;
+	letter-spacing: 25px;
+	font-family: cursive;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	background-color: grey;
+}
+#block{
+	border: 1px solid #0df277f7;
+	height: 40vh;
+	width: 180vh;
+	position: relative;
+	left: 80px;
+	background-image: linear-gradient(to right,lightblue, pink);
+}
